@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Search from './questions/Search';
 import Counter from './questions/Counter';
 import AccordionList from './questions/Accordion/AccordionList';
+import Slider from './questions/ImageSlider.js/Slider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <Search/>
   // <Counter/>
-  <AccordionList/>
+  // <AccordionList/>
+  <Slider/>
 );
 
 // If you want to start measuring performance in your app, pass a function
