@@ -1,0 +1,20 @@
+.rotate {
+    rotate: 90deg;
+}
+
+.Accordion_title {
+    width: 100%;
+    background-color: wheat;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.Accordion_description {
+    /* width: 100%; */
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    word-break: break-word;
+}
