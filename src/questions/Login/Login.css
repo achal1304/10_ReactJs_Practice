@@ -1,0 +1,81 @@
+.login{
+    justify-content: center;
+    position: relative;
+    display: flex;
+    height: 60%;
+    top: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+form{
+    display: block;
+    position: relative;
+}
+form::after{
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    top: -5px;
+    z-index: 1;
+    background: linear-gradient(30deg, yellow, blue);
+}
+
+form .form-wrapper{
+    background-color: black;
+    position: relative;
+    display: block;
+    z-index: 2;
+    padding: 10px;
+}
+
+form .form-wrapper .form-group{
+    width: 300px;
+    color: white;
+    margin: 20px;
+}
+
+form .form-wrapper .form-group label{
+    position: relative;
+    left: 10px;
+    text-align: left;
+    margin-right: 20px;
+    width: 80px;
+}
+form .form-wrapper .form-group input[type=text]{
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+form .form-wrapper .form-group input[type=text]{
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+form .form-wrapper .form-group input[type=text]:focus{
+    background: linear-gradient(45deg, yellow, blue);
+    color: black;
+}
+
+
+form .form-wrapper .submit{
+    width: 100%;
+    background: linear-gradient(45deg, blue, yellow);
+    color: black;
+    transition: ease-in-out 1s;
+}
+
+form .form-wrapper .submit:hover{
+    width: 100%;
+    background: linear-gradient(45deg, yellow, blue);
+    color: black;
+}
+
+form .form-wrapper .error{
+    width: 100%;
+    color: red;
+}

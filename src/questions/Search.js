@@ -4,7 +4,7 @@ import { useState } from 'react'
 export default function Search() {
     const [searchText, updateSearchText] = useState('');
     
-    const searchList = ['Apple', 'Banana', 'Lund', 'CHut', 'Gaand', 'Bhosda', 'Chutiya'];
+    const searchList = ['Apple', 'Banana', 'Japan', 'china', 'Indonesia', 'INdia', 'bhutan'];
     const [displayList, updatedDisplaySearchList] = useState(searchList);
     const handleTextChange = (e) => {
         console.log('inside handle text change')
